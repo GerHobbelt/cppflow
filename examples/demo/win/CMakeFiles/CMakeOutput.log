@@ -1,0 +1,403 @@
+The target system is: Windows -  - 
+The host system is: Linux - 5.4.72-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/x86_64-w64-mingw32-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/mnt/examples/demo/win/CMakeFiles/3.19.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/x86_64-w64-mingw32-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/mnt/examples/demo/win/CMakeFiles/3.19.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/examples/demo/win/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aef98/fast && make: Warning: File 'Makefile' has modification time 0.62 s in the future
+/usr/bin/make  -f CMakeFiles/cmTC_aef98.dir/build.make CMakeFiles/cmTC_aef98.dir/build
+make[1]: Entering directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_aef98.dir/flags.make' has modification time 0.61 s in the future
+Building C object CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj
+/usr/local/bin/x86_64-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c,c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/cc1 -quiet -v -D_REENTRANT /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccCybIt6.s
+GNU C17 (GCC) version 10.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 10.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 747acbecee2fc8c147a99fd921d3f24e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj /tmp/ccCybIt6.s
+GNU assembler version 2.35.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.35.1
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_aef98.exe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aef98.dir/link.txt --verbose=1
+/usr/local/bin/cmake -E rm -f CMakeFiles/cmTC_aef98.dir/objects.a
+/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_aef98.dir/objects.a @CMakeFiles/cmTC_aef98.dir/objects1.rsp
+/usr/local/bin/x86_64-w64-mingw32-gcc  -v -Wl,--whole-archive CMakeFiles/cmTC_aef98.dir/objects.a -Wl,--no-whole-archive -o cmTC_aef98.exe -Wl,--out-implib,libcmTC_aef98.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c,c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aef98.exe' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2 -m i386pep -Bdynamic -o cmTC_aef98.exe /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0 -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_aef98.dir/objects.a --no-whole-archive --out-implib libcmTC_aef98.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aef98.exe' '-mtune=generic' '-march=x86-64'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include] ==> [/usr/local/x86_64-w64-mingw32/include]
+  implicit include dirs: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include;/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed;/usr/local/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/examples/demo/win/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aef98/fast && make: Warning: File 'Makefile' has modification time 0.62 s in the future]
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_aef98.dir/build.make CMakeFiles/cmTC_aef98.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTC_aef98.dir/flags.make' has modification time 0.61 s in the future]
+  ignore line: [Building C object CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/cc1 -quiet -v -D_REENTRANT /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccCybIt6.s]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 747acbecee2fc8c147a99fd921d3f24e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj /tmp/ccCybIt6.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aef98.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_aef98.exe]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aef98.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cmake -E rm -f CMakeFiles/cmTC_aef98.dir/objects.a]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_aef98.dir/objects.a @CMakeFiles/cmTC_aef98.dir/objects1.rsp]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-gcc  -v -Wl --whole-archive CMakeFiles/cmTC_aef98.dir/objects.a -Wl --no-whole-archive -o cmTC_aef98.exe -Wl --out-implib libcmTC_aef98.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aef98.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2 -m i386pep -Bdynamic -o cmTC_aef98.exe /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0 -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_aef98.dir/objects.a --no-whole-archive --out-implib libcmTC_aef98.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o]
+    arg [/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aef98.exe] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0]
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_aef98.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_aef98.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [/usr/local/x86_64-w64-mingw32/lib]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib] ==> [/usr/local/x86_64-w64-mingw32/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0;/usr/local/x86_64-w64-mingw32/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/examples/demo/win/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aae3a/fast && make: Warning: File 'Makefile' has modification time 0.63 s in the future
+/usr/bin/make  -f CMakeFiles/cmTC_aae3a.dir/build.make CMakeFiles/cmTC_aae3a.dir/build
+make[1]: Entering directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_aae3a.dir/flags.make' has modification time 0.61 s in the future
+Building CXX object CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-g++
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c,c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/cc1plus -quiet -v -D_REENTRANT /usr/local/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccjZCxgq.s
+GNU C++14 (GCC) version 10.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/sys-include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/backward
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++14 (GCC) version 10.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 88631cb3ae6676f329d177567b5d8aa4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccjZCxgq.s
+GNU assembler version 2.35.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.35.1
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_aae3a.exe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae3a.dir/link.txt --verbose=1
+/usr/local/bin/cmake -E rm -f CMakeFiles/cmTC_aae3a.dir/objects.a
+/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_aae3a.dir/objects.a @CMakeFiles/cmTC_aae3a.dir/objects1.rsp
+/usr/local/bin/x86_64-w64-mingw32-g++  -v -Wl,--whole-archive CMakeFiles/cmTC_aae3a.dir/objects.a -Wl,--no-whole-archive -o cmTC_aae3a.exe -Wl,--out-implib,libcmTC_aae3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-g++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c,c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aae3a.exe' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2 -m i386pep -Bdynamic -o cmTC_aae3a.exe /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0 -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_aae3a.dir/objects.a --no-whole-archive --out-implib libcmTC_aae3a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aae3a.exe' '-mtune=generic' '-march=x86-64'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/backward]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+    add: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0] ==> [/usr/local/x86_64-w64-mingw32/include/c++/10.2.0]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32] ==> [/usr/local/x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/backward] ==> [/usr/local/x86_64-w64-mingw32/include/c++/10.2.0/backward]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+  collapse include dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include] ==> [/usr/local/x86_64-w64-mingw32/include]
+  implicit include dirs: [/usr/local/x86_64-w64-mingw32/include/c++/10.2.0;/usr/local/x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32;/usr/local/x86_64-w64-mingw32/include/c++/10.2.0/backward;/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include;/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed;/usr/local/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-w64-mingw32-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/examples/demo/win/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aae3a/fast && make: Warning: File 'Makefile' has modification time 0.63 s in the future]
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_aae3a.dir/build.make CMakeFiles/cmTC_aae3a.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/examples/demo/win/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Warning: File 'CMakeFiles/cmTC_aae3a.dir/flags.make' has modification time 0.61 s in the future]
+  ignore line: [Building CXX object CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-g++   -v -o CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-g++]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/cc1plus -quiet -v -D_REENTRANT /usr/local/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccjZCxgq.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/sys-include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/x86_64-w64-mingw32]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include/c++/10.2.0/backward]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed]
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 88631cb3ae6676f329d177567b5d8aa4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccjZCxgq.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aae3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_aae3a.exe]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae3a.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cmake -E rm -f CMakeFiles/cmTC_aae3a.dir/objects.a]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/cmTC_aae3a.dir/objects.a @CMakeFiles/cmTC_aae3a.dir/objects1.rsp]
+  ignore line: [/usr/local/bin/x86_64-w64-mingw32-g++  -v -Wl --whole-archive CMakeFiles/cmTC_aae3a.dir/objects.a -Wl --no-whole-archive -o cmTC_aae3a.exe -Wl --out-implib libcmTC_aae3a.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/x86_64-w64-mingw32-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-10.2.0/configure --prefix=/usr/local --target=x86_64-w64-mingw32 --enable-languages=c c++ --disable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-libgomp --enable-libatomic --enable-graphite --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-multilib --disable-lto --disable-nls --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/libexec/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aae3a.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2 -m i386pep -Bdynamic -o cmTC_aae3a.exe /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0 -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles/cmTC_aae3a.dir/objects.a --no-whole-archive --out-implib libcmTC_aae3a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt /usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o]
+    arg [/usr/local/libexec/gcc/x86_64-w64-mingw32/10.2.0/collect2] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aae3a.exe] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0]
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-L/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_aae3a.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_aae3a.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0] ==> [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [/usr/local/x86_64-w64-mingw32/lib]
+  collapse library dir [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib] ==> [/usr/local/x86_64-w64-mingw32/lib]
+  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-w64-mingw32/10.2.0;/usr/local/x86_64-w64-mingw32/lib]
+  implicit fwks: []
+
+

@@ -8,6 +8,7 @@
 #include <memory>
 #include <stdexcept>
 #include <utility>
+#include<iostream>
 
 #include <tensorflow/c/c_api.h>
 #include <tensorflow/c/eager/c_api.h>
@@ -16,6 +17,7 @@ namespace cppflow {
 
     inline bool status_check(TF_Status* status) {
         if (TF_GetCode(status) != TF_OK) {
+            std::cout << TF_Message(status) << std::endl;
             throw std::runtime_error(TF_Message(status));
         }
         return true;

@@ -1,0 +1,4 @@
+/mnt/examples/demo/win/CMakeFiles/rebuild_cache.dir
+/mnt/examples/demo/win/CMakeFiles/edit_cache.dir
+/mnt/examples/demo/win/CMakeFiles/captcha.dir
+/mnt/examples/demo/win/CMakeFiles/example.dir
