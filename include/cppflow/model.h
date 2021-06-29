@@ -23,6 +23,8 @@ namespace cppflow
     public:
         explicit model(const std::string &filename);
         model(const std::string &filename, bool frozen);
+        model(const std::vector<char> &buffer, bool frozen);
+
         std::vector<std::string> get_operations() const;
         std::vector<int64_t> get_operation_shape(const std::string &operation) const;
 
@@ -70,21 +72,6 @@ namespace cppflow
 
     inline model::model(const std::string &filename, bool frozen)
     {
-        this->graph = {TF_NewGraph(), TF_DeleteGraph};
-
-        // Create the session.
-        std::unique_ptr<TF_SessionOptions, decltype(&TF_DeleteSessionOptions)> session_options = {TF_NewSessionOptions(), TF_DeleteSessionOptions};
-        std::unique_ptr<TF_Buffer, decltype(&TF_DeleteBuffer)> run_options = {TF_NewBufferFromString("", 0), TF_DeleteBuffer};
-        std::unique_ptr<TF_Buffer, decltype(&TF_DeleteBuffer)> meta_graph = {TF_NewBuffer(), TF_DeleteBuffer};
-
-        auto session_deleter = [](TF_Session *sess)
-        {
-            TF_DeleteSession(sess, context::get_status());
-            status_check(context::get_status());
-        };
-
-        this->session = {TF_NewSession(this->graph.get(), session_options.get(), context::get_status()), session_deleter};
-        status_check(context::get_status());
 
         std::ifstream file(filename, std::ios::binary | std::ios::ate);
 
@@ -104,9 +91,29 @@ namespace cppflow
             throw std::runtime_error("Unable to read the full file: " + filename);
             return;
         }
+        model(std::vector<char>(data.get(), data.get() + size), frozen);
+    }
 
-        std::shared_ptr<TF_Buffer> buffer = {TF_NewBufferFromString(data.get(), size), TF_DeleteBuffer};
-        file.close();
+    inline model::model(const std::vector<char> &data, bool frozen)
+    {
+        this->graph = {TF_NewGraph(), TF_DeleteGraph};
+
+        // Create the session.
+        std::unique_ptr<TF_SessionOptions, decltype(&TF_DeleteSessionOptions)> session_options = {TF_NewSessionOptions(), TF_DeleteSessionOptions};
+        std::unique_ptr<TF_Buffer, decltype(&TF_DeleteBuffer)> run_options = {TF_NewBufferFromString("", 0), TF_DeleteBuffer};
+        std::unique_ptr<TF_Buffer, decltype(&TF_DeleteBuffer)> meta_graph = {TF_NewBuffer(), TF_DeleteBuffer};
+
+        auto session_deleter = [](TF_Session *sess)
+        {
+            TF_DeleteSession(sess, context::get_status());
+            status_check(context::get_status());
+        };
+
+        this->session = {TF_NewSession(this->graph.get(), session_options.get(), context::get_status()), session_deleter};
+        status_check(context::get_status());
+
+        std::shared_ptr<TF_Buffer> buffer = {TF_NewBufferFromString(data.data(), data.size()), TF_DeleteBuffer};
+
         std::cout << context::get_status() << std::endl;
         status_check(context::get_status());
 
@@ -145,7 +152,7 @@ namespace cppflow
             throw std::runtime_error("No operation named \"" + operation + "\" exists");
 
         if (operation == "NoOp")
-             throw std::runtime_error("NoOp doesn't have a shape");
+            throw std::runtime_error("NoOp doesn't have a shape");
 
         // DIMENSIONS
 
